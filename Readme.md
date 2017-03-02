@@ -1,4 +1,4 @@
-# Личный проект «Седона»
+﻿# Личный проект «Седона»
 
 * Студент: [Владимир Степанов](https://up.htmlacademy.ru/htmlcss/16/user/235498).
 * Наставник: [Евгений Болтян] (https://htmlacademy.ru/profile/id83202).
@@ -18,13 +18,13 @@ _`.editorconfig`, `.gitignore`, `Contributing.md`, `Readme.md`._
 
 #### 2. Создайте форк
 
-[Откройте мастер-репозиторий](https://github.com/htmlacademy-htmlcss/235498-sedona) и нажмите кнопку «Fork» в правом верхнем углу. Репозиторий из Академии скопируется в ваш аккаунт.
+[Откройте мастер-репозиторий](https://github.com/htmlacademy-htmlcss/235498-device) и нажмите кнопку «Fork» в правом верхнем углу. Репозиторий из Академии скопируется в ваш аккаунт.
 
-<img width="769" alt="" src="https://cloud.githubusercontent.com/assets/10909/12391953/69fd1f32-bdfc-11e5-8430-361bff83b0f3.jpg">
+<img width="769" alt="" src="https://cloud.githubusercontent.com/assets/10909/17298668/fb1e7650-581b-11e6-889b-a7004419eaf2.png">
 
 Получится вот так:
 
-<img width="769" alt="" src="https://cloud.githubusercontent.com/assets/10909/12391952/69fa8b8c-bdfc-11e5-80e0-ac781bfbfa90.jpg">
+<img width="769" alt="" src="https://cloud.githubusercontent.com/assets/10909/17298667/fb195e68-581b-11e6-88b2-e908810fd394.png">
 
 #### 3. Клонируйте репозиторий на свой компьютер
 
