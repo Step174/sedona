@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Седона</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
+  <body>
+   <header>
+     <nav class="main-navigation container">
+      <ul class="nav-left">
+        <li><a href="#">Информация</a></li>
+        <li><a href="#">Фото и видео</a></li>     
+      </ul>
+    <div class="logo">
+        <img src="img/index-logo.png" width="138" height="70" alt="City of Sedonia">
+    </div>
+      <ul class="nav-right">
+        <li><a href="#">Карта штата</a></li>
+        <li><a href="#">Гостиницы</a></li>
+      </ul>
+     </nav>
+   </header>
+   
+<main class="container">
+<form> 
+ <div class="search-type-hotel""> 
+<section class="bonus-hotel">
+<h2>Инфраструктура:</h2>
+  <input type="checkbox" name="pool"> Бассейн<br>
+  <input type="checkbox" name="parking"> Парковка<br>
+  <input type="checkbox" name="wi-fi"> WI-FI
+</section>
+
+<section class="type-hotel">
+  <h2>Тип жилья:</h2>
+  <input type="checkbox" name="hotel"> Гостиница<br>
+  <input type="checkbox" name="motel"> Мотель<br>
+  <input type="checkbox" name="apartments"> Апартаменты
+</section>
+
+<section class="price-day">
+<h2>Стоимость в сутки (Р):</h2>
+  <input type="range" name="price">
+  <a class="btn" href="#">Показать</a>
+</section>
+ </div>
+</form>
+ <div class="search-results container"> 
+   <h2>Найдено: 3</h2>
+   <ul>
+     <li>Сортировка:</li>
+     <li><a href="#">по цене</a></li>
+     <li><a href="#">по типу</a></li>
+     <li><a href="#"> по рейтингу</a></li>
+   </ul>
+
+   <div class="sorting">
+     <a href="#"></a>
+     <a href="#"></a>
+   </div>
+ </div>
+
+<div class="list-hotel">
+  <article class="proposed-hotel">
+    <div class="photo-hotel">
+      <img src="img/hotel1.jpg" width="135" height="90" alt="Amara resort">
+    </div>
+      <div class="info-hotel">
+        <h2>Amara resort & spa</h2>
+        <p>Гостиница от 4000 Р.</p>
+        <a class="btn btn-more" href="#">Подробнее</a>
+        <a class="btn btn-reservations" href="#">Забронировать</a>
+      </div>
+    <div class="rating-hotel">
+      <img src="img/stars4.png" width="89" height="17" alt="stars">
+      <p>Рейтинг: 8,5</p>
+    </div>
+  </article>
+
+  <article class="proposed-hotel">
+   <div class="photo-hotel">
+    <img src="img/hotel2.jpg" width="135" height="90" alt="Desert quail">
+    </div>
+      <div class="info-hotel">
+        <h2>Desert quail inn</h2>
+        <p>Мотель от 3000 Р.</p>
+        <a class="btn btn-more" href="#">Подробнее</a>
+        <a class="btn btn-reservations" href="#">Забронировать</a>
+      </div>
+    <div class="rating-hotel">
+      <img src="img/stars3.png" width="65" height="17" alt="stars">
+      <p>Рейтинг: 8,9</p>
+    </div>
+  </article>
+
+  <article class="proposed-hotel">
+  <div class="photo-hotel">
+    <img src="img/hotel3.jpg" width="135" height="90" alt="Villas at poco">
+    </div>
+      <div class="info-hotel">
+        <h2>Villas at poco diablo</h2>
+        <p>апартаменты от 2000 Р.</p>
+        <a class="btn btn-more" href="#">Подробнее</a>
+        <a class="btn btn-reservations" href="#">Забронировать</a>
+      </div>
+    <div class="rating-hotel">
+      <img src="img/stars2.png" width="42" height="17" alt="stars">
+      <p>Рейтинг: 9,2</p>
+    </div>
+  </article>
+</div>
+
+</main> 
+
+<footer>
+  <div class="main-footer footer-catalog container">
+        <div class="hashtag">
+          <a href="#">#VISITSEDONIA</a>
+        </div>  
+        <div class="footer-social">
+          <a class="social-btn social-btn-vk" href="#">Твиттер</a>
+          <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
+          <a class="social-btn social-btn-inst" href="#">Ютуб</a>
+        </div>
+        <div class="footer-copyright">
+          <a class="btn" href="https://htmlacademy.ru">
+          WEBSITE BY <img src="img/html-academy.png" width="113" height="39" alt="htmlacademy">
+          </a>
+        </div>
+  </div>
+</footer>
+  </body>
+</html>
