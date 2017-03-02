@@ -1,0 +1,125 @@
+h2 {
+    font-family: "Sans Bold", serif;
+    font-size: 21px;
+}
+
+p {
+    font-family: "Sans Bold", serif;
+    font-size: 14px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+body {}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    outline: 1px solid red;
+}
+
+header {
+    .main-navigation {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        .nav-left {
+            display: flex;
+            width: 40%;
+            margin-left: 6%;
+            outline: 1px solid black;
+        }
+        li {
+            width: 50%;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            min-width: 102px;
+            outline: 1px solid green;
+        }
+        .nav-right {
+            display: flex;
+            width: 40%;
+            margin-right: 6%;
+            outline: 1px solid black;
+            text-align: right;
+        }
+        .logo {
+            width: 138px;
+            img {
+                position: absolute;
+                left: 50%;
+                margin-left: -69px;
+                z-index: 1111;
+            }
+        }
+    }
+}
+
+.greeting {
+    position: relative;
+    min-height: 510px;
+    background-image: url(../fonts/background.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 22%;
+    background-attachment: scroll;
+    img {
+        position: absolute;
+        left: 50%;
+        top: 15%;
+        margin-left: -229px;
+        width: 458px;
+    }
+}
+
+.text {
+    min-height: 216px;
+    h2,
+    p {
+        width: 500px;
+        text-align: center;
+        vertical-align: middle;
+        margin: 0 auto;
+        padding-top: 30px;
+    }
+}
+
+.content {
+    display: flex;
+    width: 100%;
+    .content-text {
+        width: 33%;
+    }
+    .content-img {
+        width: 67%;
+        background: url(../fonts/Layer 5.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}
+
+.content-down {
+	display: flex;
+	width: 100%;
+	.content-text {
+		width: 33%;
+	}
+	.content-img {
+		width: 67%;
+		background: url(../fonts/Layer 10.jpg);
+		background-repeat: no-repeat;
+        background-position: center;
+	}
+}
