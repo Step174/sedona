@@ -1,1 +1,570 @@
-@font-face{font-family:"PT Sans Bold";src:url(ptsans.eot?#iefix) format('embedded-opentype'),url(../fonts/ptsansbold.woff) format('woff'),url(../fonts/ptsansbold.woff2) format('truetype')}@font-face{font-family:"PT Sans Regular";src:url(ptsans.eot?#iefix) format('embedded-opentype'),url(../fonts/ptsans.woff) format('woff'),url(../fonts/ptsans.woff2) format('truetype')}h2{font-family:"PT Sans Bold",Arial,sans-serif;font-size:21px;line-height:26px;letter-spacing:.01em;font-weight:700;color:#000}p{font-family:"PT Sans Regular",Arial,sans-serif;font-size:14px;line-height:26px;letter-spacing:.01em}*{padding:0;margin:0;text-transform:uppercase}a{text-decoration:none}li{list-style:none}.text-nav{font-family:"PT Sans Bold",Arial,sans-serif;font-size:14px;line-height:26px;letter-spacing:.01em;font-weight:700;color:#000}.container{max-width:1200px;width:100%;margin:0 auto}header .main-navigation{position:relative;display:flex;justify-content:space-between}header .main-navigation .nav-left{display:flex;width:40%;margin-left:6%}header .main-navigation li{width:50%;padding-top:18px;padding-bottom:18px;min-width:102px}header .main-navigation li a{font-family:"PT Sans Bold",Arial,sans-serif;font-size:14px;line-height:20px;letter-spacing:0;font-weight:700;color:#000}header .main-navigation li a:hover{color:#81b3d2}header .main-navigation li a:active{color:#b2b2b2}header .main-navigation .nav-right{display:flex;width:40%;margin-right:6%;text-align:right}header .main-navigation .logo{width:138px}header .main-navigation .logo img{position:absolute;left:50%;margin-left:-69px;z-index:1111}header .mobile-nav{display:none}.greeting{position:relative;min-height:508px;background:url(../img/shape.png) no-repeat bottom,url(../img/background.jpg) no-repeat 50% 22% scroll}.greeting img{position:absolute;left:50%;top:15%;margin-left:-229px;width:458px}.text{margin-bottom:53px}.text h2,.text p{width:60%;text-align:center;vertical-align:middle;margin:0 auto;padding-top:26px}.text h2{margin-top:34px}.content{display:flex;width:100%;margin-bottom:28px}.content .content-text{width:34%;text-align:center;background-color:#81b3d2;color:#fff}.content .content-text h2{display:inline-block;vertical-align:top;width:175px;margin-top:53px;line-height:21px;color:#fff}.content .content-text span{display:inline-block}.content .content-text p{display:inline-block;vertical-align:top;margin-top:23px;width:70%;line-height:21px}.content .content-img{width:67%;max-width:800px}.content .content-img .back-img{width:100%;height:256px;background-image:url(../img/Layer10.jpg);background-repeat:no-repeat;background-position:center;background-attachment:scroll}.content-down{margin-bottom:0}.content-down .content-text h2{margin-top:55px;width:160px}.content-down .content-img{width:67%;max-width:800px}.content-down .content-img .back-img{width:100%;height:256px;background:url(../img/Layer5.jpg);background-repeat:no-repeat;background-position:center}.features{display:flex;justify-content:space-around;width:100%;max-width:1200px;min-height:256px;margin-bottom:44px}.features .features-item{width:33%;text-align:center}.features .features-item img{margin-top:30px;display:inline-block}.features .features-item h2{margin-top:25px}.features .features-item p{display:inline-block;text-align:center;width:78%;margin-top:20px;line-height:21px}.features-down{margin-bottom:0;background-color:#eee}.features-down .features-item h2{display:inline-block;width:45%;margin-top:49px;text-align:center;line-height:21px}.search-hotel{position:relative;text-align:center;min-height:233px}.search-hotel h2{margin-top:58px;font-size:30px;line-height:24px}.search-hotel p{margin-top:28px;line-height:24px}.search-hotel button{max-width:570px;width:70%;margin-top:49px;padding:29px 0;border:none;outline:0;background-color:#766357;font-family:"PT Sans Bold",Arial,sans-serif;font-size:21px;line-height:26px;letter-spacing:.01em;font-weight:700;color:#fff;cursor:pointer}.search-hotel button:hover{background-color:#604e43}.search-hotel button:active{background-color:#503e33;color:#857871}.maps{position:relative;width:100%;min-height:475px}footer{position:relative;min-height:120px;display:flex;justify-content:space-around;background-color:rgba(255,255,255,.9)}footer .hashtag{margin-top:43px}footer .hashtag a{font-family:"PT Sans Bold",Arial,sans-serif;font-size:21px;line-height:26px;letter-spacing:.01em;font-weight:700;color:#000}footer .footer-social{margin-top:43px}footer .footer-social a{display:inline-block;width:46px;height:48px;outline:1px solid #000}footer .footer-copyright{margin-top:43px}footer .footer-copyright p{display:inline-block;color:#000}footer .footer-copyright img{display:inline-block;vertical-align:middle}.popup{position:absolute;bottom:-395px;left:50%;margin-left:-284px;display:none;width:570px;min-height:397px;background-color:#fff;text-align:center;z-index:1111}.popup div{width:470px;margin:0 auto;padding-top:30px}.popup div p{display:inline-block;font-family:"PT Sans Regular",Arial,sans-serif;font-size:14px;line-height:26px;font-weight:700}.popup div input{width:348px;border:none;background-color:#f2f2f2}.popup .people{width:120px}.popup .btn{display:inline-block;text-align:center;width:458px;padding:14px 0;margin-top:40px;background-color:#81b3d2;font-family:"PT Sans Bold",Arial,sans-serif;font-size:21px;line-height:26px;color:#fff}.popup .btn:hover{background-color:#669ec0}.popup .btn:active{color:#88b6d1}.popup-show{display:block;animation:bounce .3s}@keyframes bounce{0%{transform:scale(0)}100%{transform:scale(1)}}@media screen and (max-width:600px){header{display:block}header .nav-left,header .nav-right{display:block;opacity:0}header .mobile-nav{position:absolute;top:7px;right:7px;display:block;width:40px;height:40px;border-radius:5px;background-color:#eee;text-align:center;transition:.2s;cursor:pointer}header .mobile-nav:hover{background-color:#ccc}header .mobile-nav:active{background-color:#f5f5f5}header .mobile-nav .nav-right,header .mobile-nav:active .nav-left{opacity:1}header .mobile-nav::before{content:"";margin-top:12px;display:inline-block;width:26px;height:5px;border-top:5px solid #fff;border-bottom:5px solid #fff}.content{display:block;width:100%}.content .content-text{width:100%}.content .content-text h2{margin-top:23px}.content .content-text p{margin-top:13px;margin-bottom:20px;width:70%}.content .content-img{width:100%}.content .content-img .back-img{width:100%;height:256px}.features{display:block;width:100%}.features .features-item{width:100%}.search-hotel button{width:100%}.popup{width:100%;margin-left:-50%}}
+@font-face {
+		font-family: "PT Sans Bold";
+		src: url(ptsans.eot?#iefix) format("embedded-opentype"),url(../fonts/ptsansbold.woff) format("woff"),url(../fonts/ptsansbold.woff2) format("truetype")
+	
+}
+
+@font-face {
+		font-family: "PT Sans Regular";
+		src: url(ptsans.eot?#iefix) format("embedded-opentype"),url(../fonts/ptsans.woff) format("woff"),url(../fonts/ptsans.woff2) format("truetype")
+	
+}
+
+h2,footer .hashtag a
+{
+	letter-spacing: .01em;
+	color: #000;
+	font: 700 21px/26px "PT Sans Bold",Arial,sans-serif
+}
+
+p
+{
+	letter-spacing: .01em;
+	font: 14px/26px "PT Sans Regular",Arial,sans-serif
+}
+
+*
+{
+	padding: 0;
+	margin: 0;
+	text-transform: uppercase
+}
+
+a
+{
+	text-decoration: none
+}
+
+li
+{
+	list-style: none
+}
+
+.text-nav
+{
+	letter-spacing: .01em;
+	color: #000;
+	font: 700 14px/26px "PT Sans Bold",Arial,sans-serif
+}
+
+.container
+{
+	max-width: 1200px;
+	width: 100%;
+	margin: 0 auto
+}
+
+header .main-navigation
+{
+	position: relative;
+	display: flex;
+	justify-content: space-between
+}
+
+header .main-navigation .nav-left
+{
+	display: flex;
+	width: 40%;
+	margin-left: 6%
+}
+
+header .main-navigation li
+{
+	width: 50%;
+	padding-top: 18px;
+	padding-bottom: 18px;
+	min-width: 102px
+}
+
+header .main-navigation li a
+{
+	letter-spacing: 0;
+	color: #000;
+	font: 700 14px/20px "PT Sans Bold",Arial,sans-serif
+}
+
+header .main-navigation li a:hover
+{
+	color: #81b3d2
+}
+
+header .main-navigation li a:active
+{
+	color: #b2b2b2
+}
+
+header .main-navigation .nav-right
+{
+	display: flex;
+	width: 40%;
+	margin-right: 6%;
+	text-align: right
+}
+
+header .main-navigation .logo
+{
+	width: 138px
+}
+
+header .main-navigation .logo img
+{
+	position: absolute;
+	left: 50%;
+	margin-left: -69px;
+	z-index: 1111
+}
+
+header .mobile-nav
+{
+	display: none
+}
+
+.greeting
+{
+	position: relative;
+	min-height: 508px;
+	background: url(../img/shape.png) no-repeat bottom 50% 22%,url(../img/background.jpg) no-repeat
+}
+
+.greeting img
+{
+	position: absolute;
+	left: 50%;
+	top: 15%;
+	margin-left: -229px;
+	width: 458px
+}
+
+.text
+{
+	margin-bottom: 53px
+}
+
+.text h2,.text p
+{
+	width: 60%;
+	text-align: center;
+	vertical-align: middle;
+	margin: 0 auto;
+	padding-top: 26px
+}
+
+.text h2
+{
+	margin-top: 34px
+}
+
+.content
+{
+	display: flex;
+	width: 100%;
+	margin-bottom: 28px
+}
+
+.content .content-text
+{
+	width: 34%;
+	text-align: center;
+	color: #fff;
+	background: #81b3d2
+}
+
+.content .content-text h2
+{
+	display: inline-block;
+	vertical-align: top;
+	width: 175px;
+	margin-top: 53px;
+	line-height: 21px;
+	color: #fff
+}
+
+.content .content-text span
+{
+	display: inline-block
+}
+
+.content .content-text p
+{
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 23px;
+	width: 70%;
+	line-height: 21px
+}
+
+.content .content-img
+{
+	width: 67%;
+	max-width: 800px
+}
+
+.content .content-img .back-img
+{
+	width: 100%;
+	height: 256px;
+	background: url(../img/Layer10.jpg) no-repeat center
+}
+
+.content-down
+{
+	margin-bottom: 0
+}
+
+.content-down .content-text h2
+{
+	margin-top: 55px;
+	width: 160px
+}
+
+.content-down .content-img
+{
+	width: 67%;
+	max-width: 800px
+}
+
+.content-down .content-img .back-img
+{
+	width: 100%;
+	height: 256px;
+	background: url(../img/Layer5.jpg) no-repeat center;
+	background-repeat: repeat;
+	background-position: 0 0
+}
+
+.features
+{
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	max-width: 1200px;
+	min-height: 256px;
+	margin-bottom: 44px
+}
+
+.features .features-item
+{
+	width: 33%;
+	text-align: center
+}
+
+.features .features-item img
+{
+	margin-top: 30px;
+	display: inline-block
+}
+
+.features .features-item h2
+{
+	margin-top: 25px
+}
+
+.features .features-item p
+{
+	display: inline-block;
+	text-align: center;
+	width: 78%;
+	margin-top: 20px;
+	line-height: 21px
+}
+
+.features-down
+{
+	margin-bottom: 0;
+	background: #eee
+}
+
+.features-down .features-item h2
+{
+	display: inline-block;
+	width: 45%;
+	margin-top: 49px;
+	text-align: center;
+	line-height: 21px
+}
+
+.search-hotel
+{
+	position: relative;
+	text-align: center;
+	min-height: 233px
+}
+
+.search-hotel h2
+{
+	margin-top: 58px;
+	font-size: 30px;
+	line-height: 24px
+}
+
+.search-hotel p
+{
+	margin-top: 28px;
+	line-height: 24px
+}
+
+.search-hotel button
+{
+	max-width: 570px;
+	width: 70%;
+	margin-top: 49px;
+	padding: 29px 0;
+	border: none;
+	outline: 0;
+	letter-spacing: .01em;
+	color: #fff;
+	cursor: pointer;
+	font: 700 21px/26px "PT Sans Bold",Arial,sans-serif;
+	background: #766357
+}
+
+.search-hotel button:hover
+{
+	background: #604e43
+}
+
+.search-hotel button:active
+{
+	color: #857871;
+	background: #503e33
+}
+
+.maps
+{
+	position: relative;
+	width: 100%;
+	min-height: 475px
+}
+
+footer
+{
+	position: relative;
+	min-height: 120px;
+	display: flex;
+	justify-content: space-around;
+	background: hsla(0,0,100%,.9)
+}
+
+footer .hashtag
+{
+	margin-top: 43px
+}
+
+footer .footer-social
+{
+	margin-top: 43px
+}
+
+footer .footer-social a
+{
+	display: inline-block;
+	width: 46px;
+	height: 48px;
+	outline: 1px solid #000
+}
+
+footer .footer-copyright
+{
+	margin-top: 43px
+}
+
+footer .footer-copyright p
+{
+	display: inline-block;
+	color: #000
+}
+
+footer .footer-copyright img
+{
+	display: inline-block;
+	vertical-align: middle
+}
+
+.popup
+{
+	position: absolute;
+	bottom: -395px;
+	left: 50%;
+	margin-left: -284px;
+	display: none;
+	width: 570px;
+	min-height: 397px;
+	text-align: center;
+	z-index: 1111;
+	background: #fff
+}
+
+.popup div
+{
+	width: 470px;
+	margin: 0 auto;
+	padding-top: 30px
+}
+
+.popup div p
+{
+	display: inline-block;
+	font: 700 14px/26px "PT Sans Regular",Arial,sans-serif
+}
+
+.popup div input
+{
+	width: 348px;
+	border: none;
+	background: #f2f2f2
+}
+
+.popup .people
+{
+	width: 120px
+}
+
+.popup .btn
+{
+	display: inline-block;
+	text-align: center;
+	width: 458px;
+	padding: 14px 0;
+	margin-top: 40px;
+	color: #fff;
+	font: 21px/26px "PT Sans Bold",Arial,sans-serif;
+	background: #81b3d2
+}
+
+.popup .btn:hover
+{
+	background: #669ec0
+}
+
+.popup .btn:active
+{
+	color: #88b6d1
+}
+
+.popup-show
+{
+	display: block;
+	animation: bounce .3s
+}
+
+@keyframes bounce {
+	0%
+	{
+		transform: scale(0)
+	}
+	
+	100%
+	{
+		transform: scale(1)
+	}
+}
+
+@media screen and (max-width:600px) {
+	header
+	{
+		display: block
+	}
+	
+	header .nav-left,header .nav-right
+	{
+		display: block;
+		opacity: 0
+	}
+	
+	header .mobile-nav
+	{
+		position: absolute;
+		top: 7px;
+		right: 7px;
+		display: block;
+		width: 40px;
+		height: 40px;
+		border-radius: 5px;
+		text-align: center;
+		transition: .2s;
+		cursor: pointer;
+		background: #eee
+	}
+	
+	header .mobile-nav:hover
+	{
+		background: #ccc
+	}
+	
+	header .mobile-nav:active
+	{
+		background: #f5f5f5
+	}
+	
+	header .mobile-nav .nav-right,header .mobile-nav:active .nav-left
+	{
+		opacity: 1
+	}
+	
+	header .mobile-nav::before
+	{
+		content: "";
+		margin-top: 12px;
+		display: inline-block;
+		width: 26px;
+		height: 5px;
+		border-top: 5px solid #fff;
+		border-bottom: 5px solid #fff
+	}
+	
+	.content
+	{
+		display: block;
+		width: 100%
+	}
+	
+	.content .content-text
+	{
+		width: 100%
+	}
+	
+	.content .content-text h2
+	{
+		margin-top: 23px
+	}
+	
+	.content .content-text p
+	{
+		margin-top: 13px;
+		margin-bottom: 20px;
+		width: 70%
+	}
+	
+	.content .content-img
+	{
+		width: 100%
+	}
+	
+	.content .content-img .back-img
+	{
+		width: 100%;
+		height: 256px
+	}
+	
+	.features
+	{
+		display: block;
+		width: 100%
+	}
+	
+	.features .features-item
+	{
+		width: 100%
+	}
+	
+	.search-hotel button
+	{
+		width: 100%
+	}
+	
+	.popup
+	{
+		width: 100%;
+		margin-left: -50%
+	}
+}
