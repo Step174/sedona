@@ -1,4 +1,4 @@
-@color-content: #81b3d2;
+    @color-content: #81b3d2;
 @color-content-text: white;
 @color-bottom: #766357;
 @font-face {
@@ -10,7 +10,6 @@
     font-family: "PT Sans Regular";
     src: url('ptsans.eot?#iefix') format('embedded-opentype'), url('../fonts/ptsans.woff') format('woff'), url('../fonts/ptsans.woff2') format('truetype');
 }
-
 
 h2 {
     font-family: "PT Sans Bold", "Arial", sans-serif;
@@ -52,7 +51,8 @@ li {
 }
 
 .container {
-    max-width: 1200px;;
+    max-width: 1200px;
+    ;
     width: 100%;
     margin: 0 auto;
 }
@@ -430,9 +430,8 @@ footer {
         position: relative;
         width: 100%;
         img {
-          max-width: 100%;
+            max-width: 100%;
         }
-
     }
     .content {
         display: block;
@@ -461,6 +460,9 @@ footer {
         width: 100%;
         .features-item {
             width: 100%;
+            p {
+                margin-bottom: 20px;
+            }
         }
     }
     .search-hotel {
@@ -475,25 +477,34 @@ footer {
         }
     }
     .popup {
+        bottom: -476px;
         width: 100%;
-        margin-left: -50%;
-        .btn {
-            width: 100%;
+        left: 0%;
+        margin-left: 0px;
+        div {
+            width: 95%;
+            input {
+                width: 90%;
+                border: none;
+                background-color: #f2f2f2;
+            }
+        
         }
+        .btn {width: 80%;}
     }
-    footer {
-        display: block;
-        .hashtag {
-            text-align: center;
-            margin-top: 13px;
-        }
-        .footer-social {
-            margin-top: 13px;
-            text-align: center;
-        }
-        .footer-copyright {
-            text-align: center;
-            margin-top: 13px;
-        }
+        footer {
+            display: block;
+            .hashtag {
+                text-align: center;
+                margin-top: 13px;
+            }
+            .footer-social {
+                margin-top: 13px;
+                text-align: center;
+            }
+            .footer-copyright {
+                text-align: center;
+                margin-top: 13px;
+            }
     }
 }
