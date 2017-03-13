@@ -23,7 +23,15 @@
                 <li><a href="#">Гостиницы</a></li>
             </ul>
         </nav>
-        <div class="mobile-nav"></div>
+        <button class="mobile-nav"></button>
+        <nav class="mobile-navigation">
+            <ul>
+                <li><a href="#">Информация</a></li>
+                <li><a href="#">Фото и видео</a></li>
+                <li><a href="#">Карта штата</a></li>
+                <li><a href="#">Гостиницы</a></li>
+            </ul>
+        </nav>
     </header>
     <main class="container">
         <div class="greeting">
@@ -92,32 +100,29 @@
             <p>Укажите предполагаемые даты поездки,
                 <br> и мы покажем вам лучшие предложения гостиниц в Седоне</p>
             <button class="js-active">Поиск гостиницы в Седоне</button>
-
             <div class="popup">
-        <form>
-            <div>
-                <p>Дата заезда:</p>
-                <input type="date" name="data">
+                <form>
+                    <div>
+                        <p>Дата заезда:</p>
+                        <input type="date" name="data">
+                    </div>
+                    <div>
+                        <p>Дата выезда:</p>
+                        <input type="date" name="data">
+                    </div>
+                    <div class="tipe">
+                        <p>Взрослые:</p>
+                        <input class="people" type="number" size="3" name="adults" min="1" max="10" value="2">
+                        <p>Дети:</p>
+                        <input class="people" type="number" size="3" name="children" min="1" max="10" value="0">
+                    </div>
+                    <a class="btn" href="#">Найти</a>
+                </form>
             </div>
-            <div>
-                <p>Дата выезда:</p>
-                <input type="date" name="data">
-            </div>
-            <div class="tipe">
-                <p>Взрослые:</p>
-                <input class="people" type="number" size="3" name="adults" min="1" max="10" value="2">
-                <p>Дети:</p>
-                <input class="people" type="number" size="3" name="children" min="1" max="10" value="0">
-            </div>
-            <a class="btn" href="#">Найти</a>
-        </form>
-    </div>
         </div>
         <div class="maps">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22023.983835171297!2d-111.79453544009091!3d34.85912222437516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872da132f942b00d%3A0x5548c523fa6c8efd!2z0KHQtdC00L7QvdCwLCDQkNGA0LjQt9C-0L3QsCA4NjMzNiwg0KHQqNCQ!5e0!3m2!1sru!2sru!4v1488477954392" width="100%" height="475" frameborder="0" allowfullscreen></iframe>
         </div>
-
-
     </main>
     <footer class="container">
         <div class="hashtag">
