@@ -11,6 +11,7 @@
     src: url('ptsans.eot?#iefix') format('embedded-opentype'), url('../fonts/ptsans.woff') format('woff'), url('../fonts/ptsans.woff2') format('truetype');
 }
 
+
 h2 {
     font-family: "PT Sans Bold", "Arial", sans-serif;
     font-size: 21px;
@@ -51,7 +52,7 @@ li {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1200px;;
     width: 100%;
     margin: 0 auto;
 }
@@ -112,12 +113,10 @@ header {
     position: relative;
     min-height: 508px;
     background: url(../img/shape.png) no-repeat bottom, url(../img/background.jpg) no-repeat 50% 22% scroll;
+    text-align: center;
     img {
-        position: absolute;
-        left: 50%;
-        top: 15%;
-        margin-left: -229px;
-        width: 458px;
+        display: inline-block;
+        margin-top: 50px;
     }
 }
 
@@ -430,10 +429,10 @@ footer {
     .greeting {
         position: relative;
         width: 100%;
-        background: url(../img/Welcome.png) no-repeat center, url(../img/shape.png) no-repeat bottom, url(../img/background.jpg) no-repeat 50% 22%;
         img {
-            display: none;
+          max-width: 100%;
         }
+
     }
     .content {
         display: block;
