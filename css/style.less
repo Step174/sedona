@@ -567,17 +567,29 @@
     }
     
     .search-type-hotel {
-        outline: 1px solid red;
         display: flex;
-        input {
-            margin: 10px 0;
+        justify-content: flex-start;
+        background: url(../img/filter-background.jpg) no-repeat center -50px;
+        section {
+            h2 {
+                margin-top: 15px;
+            }
+            input {
+                margin: 20px 0;
+            }
         }
         .bonus-hotel {
+            min-width: 100px;
             margin-left: 5%;
             margin-right: 5%;
         }
         .type-hotel {
-            margin-right: 40%;
+            min-width: 100px;
+        }
+        .price-day {
+            min-width: 200px;
+            margin-left: auto;
+            margin-right: 10px;
         }
     }
     
