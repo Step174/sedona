@@ -52,7 +52,6 @@
     
     .container {
         max-width: 1200px;
-        ;
         width: 100%;
         margin: 0 auto;
     }
@@ -72,7 +71,6 @@
                 width: 50%;
                 padding-top: 18px;
                 padding-bottom: 18px;
-                /*min-width: 102px;*/
                 a {
                     font-family: "PT Sans Bold", "Arial", sans-serif;
                     font-size: 14px;
@@ -106,15 +104,14 @@
         }
         .mobile-nav {
             display: none;
-            transition: 0.6s;
         }
         .mobile-navigation {
             position: relative;
             top: 20px;
             z-index: 2222;
-            text-align: center;
             display: none;
             width: 100%;
+            text-align: center;
             background-color: white;
             li {
                 transition: 0.2s;
@@ -139,8 +136,8 @@
     .greeting {
         position: relative;
         min-height: 508px;
-        background: url(../img/shape.png) no-repeat bottom, url(../img/background.jpg) no-repeat 50% 22% scroll;
         text-align: center;
+        background: url(../img/shape.png) no-repeat bottom, url(../img/background.jpg) no-repeat 50% 22% scroll;
         img {
             display: inline-block;
             margin-top: 50px;
@@ -152,10 +149,10 @@
         h2,
         p {
             width: 60%;
-            text-align: center;
-            vertical-align: middle;
             margin: 0 auto;
             padding-top: 26px;
+            text-align: center;
+            vertical-align: middle;
         }
         h2 {
             margin-top: 34px;
@@ -169,13 +166,13 @@
         .content-text {
             width: 34%;
             text-align: center;
-            background-color: @color-content;
             color: @color-content-text;
+            background-color: @color-content;
             h2 {
                 display: inline-block;
-                vertical-align: top;
                 width: 175px;
                 margin-top: 53px;
+                vertical-align: top;
                 line-height: 21px;
                 color: @color-content-text;
             }
@@ -184,9 +181,9 @@
             }
             p {
                 display: inline-block;
-                vertical-align: top;
-                margin-top: 23px;
                 width: 70%;
+                margin-top: 23px;
+                vertical-align: top;
                 line-height: 21px;
             }
         }
@@ -208,8 +205,8 @@
         margin-bottom: 0;
         .content-text {
             h2 {
-                margin-top: 55px;
                 width: 175px;
+                margin-top: 55px;
             }
             p {
                 width: 70%;
@@ -239,17 +236,17 @@
             width: 33%;
             text-align: center;
             img {
-                margin-top: 30px;
                 display: inline-block;
+                margin-top: 30px;
             }
             h2 {
                 margin-top: 25px;
             }
             p {
                 display: inline-block;
-                text-align: center;
                 width: 78%;
                 margin-top: 20px;
+                text-align: center;
                 line-height: 21px;
             }
         }
@@ -271,8 +268,8 @@
     
     .search-hotel {
         position: relative;
-        text-align: center;
         min-height: 233px;
+        text-align: center;
         h2 {
             margin-top: 58px;
             font-size: 30px;
@@ -287,15 +284,15 @@
             width: 570px;
             margin-top: 49px;
             padding: 29px 0;
-            border: none;
-            outline: none;
-            background-color: @color-bottom;
             font-family: "PT Sans Bold", "Arial", sans-serif;
             font-size: 21px;
             line-height: 26px;
             letter-spacing: 0.01em;
             font-weight: bold;
             color: white;
+            background-color: @color-bottom;
+            border: none;
+            outline: none;
             cursor: pointer;
             &:hover {
                 background-color: #604e43;
@@ -315,9 +312,9 @@
     
     footer {
         position: relative;
-        min-height: 120px;
         display: flex;
         justify-content: space-around;
+        min-height: 120px;
         background-color: rgba(255, 255, 255, 0.9);
         .hashtag {
             margin-top: 43px;
@@ -336,7 +333,24 @@
                 display: inline-block;
                 width: 46px;
                 height: 48px;
+                background: url(../img/f.png) no-repeat center;
                 background-color: @color-content;
+            }
+            a:nth-child(2) {
+                background: url(../img/t.png) no-repeat center;
+                background-color: @color-content;
+            }
+            a:nth-child(3) {
+                background: url(../img/y.png) no-repeat center;
+                background-color: @color-content;
+            }
+            a {
+                &:hover {
+                    background-color: #669ec0;
+                    &:active {
+                        background-color: #5496bd;
+                    }
+                }
             }
         }
         .footer-copyright {
@@ -356,13 +370,13 @@
         position: absolute;
         bottom: -395px;
         left: 50%;
-        margin-left: -285px;
+        z-index: 1111;
         display: none;
         width: 570px;
         min-height: 397px;
-        background-color: white;
+        margin-left: -285px;
         text-align: center;
-        z-index: 1111;
+        background-color: white;
         div {
             width: 90%;
             margin: 0 auto;
@@ -385,15 +399,15 @@
         }
         .btn {
             display: inline-block;
-            text-align: center;
             width: 458px;
             padding: 14px 0;
             margin-top: 40px;
-            background-color: @color-content;
+            text-align: center;
             font-family: "PT Sans Bold", "Arial", sans-serif;
             font-size: 21px;
             line-height: 26px;
             color: white;
+            background-color: @color-content;
             &:hover {
                 background-color: #669ec0;
             }
@@ -417,12 +431,21 @@
         }
     }
     
+    @keyframes mobnav {
+        0% {
+            transform: translateY(-1150px);
+        }
+        100% {
+            transform: translateY(0px);
+        }
+    }
+    
     @media screen and (max-width: 600px) {
         header {
             .nav-left,
             .nav-right {
-                opacity: 0;
                 height: 56px;
+                opacity: 0;
             }
             .mobile-nav {
                 position: absolute;
@@ -431,12 +454,12 @@
                 display: block;
                 width: 40px;
                 height: 40px;
+                text-align: center;
+                transition: 0.2s;
                 border-radius: 5px;
                 border: none;
                 outline: none;
                 background-color: #eeeeee;
-                text-align: center;
-                transition: 0.2s;
                 cursor: pointer;
                 &:hover {
                     background-color: #cccccc;
@@ -445,16 +468,16 @@
                     background-color: #f5f5f5;
                 }
                 &:focus + .mobile-navigation {
-                    transition: 0.6s;
                     display: block;
+                    transition: 0.6s;
                 }
             }
             .mobile-nav::before {
                 content: "";
-                margin-top: 3px;
                 display: inline-block;
                 width: 26px;
                 height: 5px;
+                margin-top: 3px;
                 border-top: 5px solid white;
                 border-bottom: 5px solid white;
             }
@@ -475,9 +498,9 @@
                     margin-top: 23px;
                 }
                 p {
+                    width: 70%;
                     margin-top: 13px;
                     margin-bottom: 20px;
-                    width: 70%;
                 }
             }
             .content-img {
@@ -511,8 +534,8 @@
         }
         .popup {
             bottom: -476px;
-            width: 100%;
             left: 0%;
+            width: 100%;
             margin-left: 0px;
             div {
                 width: 95%;
@@ -529,8 +552,8 @@
         footer {
             display: block;
             .hashtag {
-                text-align: center;
                 margin-top: 13px;
+                text-align: center;
             }
             .footer-social {
                 margin-top: 13px;
