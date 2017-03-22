@@ -570,9 +570,11 @@
         display: flex;
         justify-content: flex-start;
         background: url(../img/filter-background.jpg) no-repeat center -50px;
+        color: white;
         section {
             h2 {
                 margin-top: 15px;
+                color: white;
             }
             input {
                 margin: 20px 0;
@@ -587,9 +589,16 @@
             min-width: 100px;
         }
         .price-day {
+            display: flex;
+            flex-direction: column;
             min-width: 200px;
             margin-left: auto;
-            margin-right: 10px;
+            margin-right: 20px;
+            a {
+                color: white;
+                border: 2px solid white;
+                text-align: center;
+            }
         }
     }
     
@@ -614,11 +623,33 @@
             margin-left: 5%;
             margin-right: 5%;
         }
-        .info-hotel {
-            margin-right: 40%;
+        .info-hotel { 
             h2,
             p {
-                padding: 5px 0;
+                /*padding: 5px 0;*/
+            }
+            .btn {
+            display: inline-block;
+            width: 140px;
+            padding: 4px 0;
+            text-align: center;
+            font-family: "PT Sans Bold", "Arial", sans-serif;
+            font-size: 14px;
+            line-height: 20px;
+            color: white;
+            background-color: @color-content;
+            &:hover {
+                background-color: #669ec0;
+            }
+            &:active {
+                color: #88b6d1;
             }
         }
+        }
+        .rating-hotel {
+            margin-left: auto;
+            margin-right: 10px;
+        }
     }
+
+
